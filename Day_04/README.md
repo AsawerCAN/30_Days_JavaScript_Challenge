@@ -21,7 +21,8 @@
 ## Activity 4: Nested Loops
 
 **Task 7:** Write a program to print a pattern using nested for loops.(ignore color)
-![Pattern Example](Day_04/Pattern.png)
+
+![Pattern Example](./Pattern.png)
 
 ## Activity 5: Loop Control Statements
 
