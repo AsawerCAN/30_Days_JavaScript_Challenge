@@ -37,6 +37,7 @@ Each day has its own folder containing a README file with instructions, and any 
 - Day 1: Introduction to Variables and Data Types
 - Day-02: Operators
 - Day-03: Control Structures Tasks
+- Day-04: Loops
 
 ## Resources
 
