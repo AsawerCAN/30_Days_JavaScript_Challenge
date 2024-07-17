@@ -38,6 +38,7 @@ Each day has its own folder containing a README file with instructions, and any 
 - Day-02: Operators
 - Day-03: Control Structures Tasks
 - Day-04: Loops
+- Day-05: Functions
 
 ## Resources
 
