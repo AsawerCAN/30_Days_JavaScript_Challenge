@@ -39,6 +39,9 @@ Each day has its own folder containing a README file with instructions, and any 
 - Day-03: Control Structures Tasks
 - Day-04: Loops
 - Day-05: Functions
+- Day-06: Arrays
+- Day-07: Objects
+- Day-08: ES6+ Features
 
 ## Resources
 
