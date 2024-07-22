@@ -42,6 +42,8 @@ Each day has its own folder containing a README file with instructions, and any 
 - Day-06: Arrays
 - Day-07: Objects
 - Day-08: ES6+ Features
+- Day-09: DOM Manipulation
+- Day-10: Event Handling
 
 ## Resources
 
