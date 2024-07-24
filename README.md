@@ -44,6 +44,8 @@ Each day has its own folder containing a README file with instructions, and any 
 - Day-08: ES6+ Features
 - Day-09: DOM Manipulation
 - Day-10: Event Handling
+- Day-11 : Promises and Async/Await
+- Day-12 : Error Handling
 
 ## Resources
 
