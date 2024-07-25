@@ -1,0 +1,13 @@
+Node.js, by default, treats JavaScript files as CommonJS modules. To use ES modules (which allow the import and export syntax), you need to explicitly tell Node.js to treat your files as ES modules. There are two ways to do this:
+
+Option 1: Set "type": "module" in package.json
+Open or create a package.json file in your project directory.
+Add "type": "module" to your package.json file.
+
+Option 2: Use the .mjs Extension
+Rename your files to have a .mjs extension:
+
+utils.js -> utils.mjs
+main.js -> main.mjs
+
+With this setup, you can use the import and export syntax in your JavaScript files without any issues.
