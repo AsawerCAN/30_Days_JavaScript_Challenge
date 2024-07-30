@@ -51,6 +51,7 @@ Each day has its own folder containing a README file with instructions, and any 
 - Day-15: Closures
 - Day-16: Recursion
 - Day-17: Data Structures
+- Day-18: Algorithms
 
 ## Resources
 
