@@ -1,4 +1,4 @@
-# Day-17: Algorithms
+# Day-18: Algorithms
 
 ## Tasks | Activities
 
