@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 6- Session Preferences Storage</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .preferences-info {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>User Preferences Storage</h1>
+    <div class="preferences-info">
+      <label for="themeSelect">Select Theme:</label>
+      <select id="themeSelect">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+      <br /><br />
+      <label for="languageSelect">Select Language:</label>
+      <select id="languageSelect">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+      </select>
+      <br /><br />
+      <button id="saveButton">Save Preferences</button>
+      <button id="retrieveButton">Retrieve Preferences</button>
+    </div>
+    <pre id="log"></pre>
+
+    <script src="script.js"></script>
+  </body>
+</html>
