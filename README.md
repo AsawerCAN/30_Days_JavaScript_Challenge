@@ -53,6 +53,9 @@ Each day has its own folder containing a README file with instructions, and any 
 - Day-17: Data Structures
 - Day-18: Algorithms
 - Day-19: Regular Expressions
+- Day-20: LocalStorage and SessionStorage
+- Day-21: LeetCode Easy
+- Day-22: LeetCode Medium
 
 ## Resources
 
