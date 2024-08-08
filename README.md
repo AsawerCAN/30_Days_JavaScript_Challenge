@@ -56,6 +56,8 @@ Each day has its own folder containing a README file with instructions, and any 
 - Day-20: LocalStorage and SessionStorage
 - Day-21: LeetCode Easy
 - Day-22: LeetCode Medium
+- Day-23: Leetcode Hard
+- Day 24: Project 1- Weather App
 
 ## Resources
 
