@@ -6,7 +6,7 @@ const modalBody = document.getElementById("modal-body");
 const closeModal = document.querySelector(".close");
 const paginationContainer = document.getElementById("pagination");
 
-const API_KEY = "90fcf200"; // Replace with your actual OMDB API key
+const API_KEY = ""; // API key Removed
 let currentPage = 1;
 let totalResults = 0;
 
