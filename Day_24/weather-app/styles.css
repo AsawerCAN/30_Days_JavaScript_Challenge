@@ -1,0 +1,236 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --text-color: #333;
+  --bg-color: #f4f4f4;
+  --card-bg: #fff;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --gradient: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--gradient);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  background-color: var(--card-bg);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#themeToggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s;
+}
+
+#themeToggle:hover {
+  transform: scale(1.1);
+}
+
+.search-container {
+  display: flex;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+#locationInput {
+  flex-grow: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px 0 0 5px;
+  transition: border-color 0.3s;
+}
+
+#locationInput:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+#searchButton {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+  background-color: #2980b9;
+}
+
+.weather-info {
+  padding: 30px;
+  text-align: center;
+}
+
+#location {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+#temperature {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+#description {
+  font-size: 1.2rem;
+  color: #666;
+  text-transform: capitalize;
+}
+
+#weatherIcon {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+}
+
+.forecast-container {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-top: 1px solid #e9ecef;
+}
+
+.forecast-container h3 {
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 25px;
+  font-size: 1.4rem;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.forecast-item {
+  flex-basis: calc(20% - 16px);
+  text-align: center;
+  padding: 20px 10px;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.forecast-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.forecast-item p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+}
+
+.forecast-item img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Dark theme */
+body.dark-theme {
+  --primary-color: #3498db;
+  --secondary-color: #ecf0f1;
+  --text-color: #f4f4f4;
+  --bg-color: #2c3e50;
+  --card-bg: #34495e;
+  --gradient: linear-gradient(120deg, #2c3e50 0%, #4ca1af 100%);
+}
+
+body.dark-theme .container {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .search-container,
+body.dark-theme .forecast-container {
+  background-color: #2c3e50;
+}
+
+body.dark-theme #locationInput {
+  background-color: #34495e;
+  color: white;
+  border-color: #456789;
+}
+
+body.dark-theme .forecast-item {
+  background-color: #2c3e50;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    border-radius: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #temperature {
+    font-size: 3rem;
+  }
+
+  .forecast-container {
+    padding: 20px;
+  }
+
+  .forecast {
+    gap: 15px;
+  }
+
+  .forecast-item {
+    flex-basis: calc(33.33% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .forecast-item {
+    flex-basis: calc(50% - 7.5px);
+  }
+}
